@@ -1,0 +1,40 @@
+// DM Environment file for Project Shuttle.dme.
+// All manual changes should be made outside the BEGIN_ and END_ blocks.
+// New source code should be placed in .dm files: choose File/New --> Code File.
+
+// BEGIN_INTERNALS
+// END_INTERNALS
+
+// BEGIN_FILE_DIR
+#define FILE_DIR .
+#define FILE_DIR "FTL edited"
+#define FILE_DIR "FTL edited/Drone"
+#define FILE_DIR "FTL edited/HUD"
+#define FILE_DIR "FTL edited/HUD/ed"
+#define FILE_DIR "icons"
+#define FILE_DIR "sounds"
+// END_FILE_DIR
+
+// BEGIN_PREFERENCES
+// END_PREFERENCES
+
+// BEGIN_INCLUDE
+#include "__HELPERS\maths.dm"
+#include "__HELPERS\sanitize_values.dm"
+#include "__HELPERS\text.dm"
+#include "__HELPERS\time.dm"
+#include "__HELPERS\type2type.dm"
+#include "in Work\dat_Inert.dm"
+#include "in Work\dat_S_pow.dm"
+#include "in Work\dat_spawn.dm"
+#include "in Work\Dock.dm"
+#include "in Work\Gravity.dm"
+#include "in Work\MEGA_COD.dm"
+#include "in Work\Ship_inside.dm"
+#include "in Work\SM4 Procs.dm"
+#include "in Work\SM4.dm"
+#include "in Work\Ticker.dm"
+#include "in Work\world.dm"
+#include "in Work\MAP.dmm"
+// END_INCLUDE
+
